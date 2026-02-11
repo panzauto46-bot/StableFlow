@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StableFlow</string>
+    
+    <!-- Authentication -->
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Konfirmasi Password</string>
+    <string name="display_name">Nama Lengkap</string>
+    <string name="forgot_password">Lupa Password?</string>
+    <string name="demo_mode">Coba Mode Demo</string>
+    <string name="tagline">Manajemen Keuangan USDC Premium</string>
+    
+    <!-- Dashboard -->
+    <string name="usdc_balance">Saldo USDC</string>
+    <string name="last_updated">Terakhir diperbarui: %s</string>
+    <string name="send">Kirim</string>
+    <string name="receive">Terima</string>
+    <string name="scan">Scan</string>
+    <string name="reimburse">Reimburse</string>
+    <string name="income">Pemasukan</string>
+    <string name="expense">Pengeluaran</string>
+    <string name="view_all">Lihat Semua</string>
+    <string name="expense_claims">Klaim Biaya</string>
+    <string name="add_new_expense">Ajukan Klaim Baru</string>
+    <string name="empty_expenses">Belum ada klaim yang diajukan</string>
+    <string name="empty_expenses_hint">Klik tombol di atas untuk mengajukan klaim</string>
+    
+    <!-- Dashboard Wallet -->
+    <string name="wallet_solana">Wallet Solana</string>
+    <string name="wallet_not_connected">Tidak terhubung</string>
+    <string name="wallet_connected">Terhubung</string>
+    <string name="wallet_offline">Offline</string>
+    <string name="increase_from_last_month">↑ 12.5% dari bulan lalu</string>
+    <string name="decrease_from_last_month">↓ 8.2% dari bulan lalu</string>
+    
+    <!-- Submit Expense -->
+    <string name="submit_expense_title">Ajukan Klaim Baru</string>
+    <string name="expense_title">Judul Klaim</string>
+    <string name="expense_title_hint">Contoh: Perjalanan Dinas Jakarta</string>
+    <string name="description">Deskripsi</string>
+    <string name="description_hint">Jelaskan detail pengeluaran...</string>
+    <string name="amount_usdc">Jumlah (USDC)</string>
+    <string name="category">Kategori</string>
+    <string name="select_category">Pilih</string>
+    <string name="receipt_photo">Foto Struk/Bukti (Opsional)</string>
+    <string name="take_photo">Ambil Foto</string>
+    <string name="upload_file">Unggah File</string>
+    <string name="location_expense">Lokasi Pengeluaran (Opsional)</string>
+    <string name="add_current_location">Tambahkan Lokasi Saat Ini</string>
+    <string name="submit_claim">Ajukan Klaim</string>
+    
+    <!-- Categories -->
+    <string name="category_travel">Perjalanan Dinas</string>
+    <string name="category_meals">Makan &amp; Minum</string>
+    <string name="category_supplies">Perlengkapan Kantor</string>
+    <string name="category_equipment">Peralatan</string>
+    <string name="category_software">Software &amp; Lisensi</string>
+    <string name="category_training">Pelatihan</string>
+    <string name="category_entertainment">Hiburan Klien</string>
+    <string name="category_utilities">Utilitas</string>
+    <string name="category_other">Lainnya</string>
+    
+    <!-- Statuses -->
+    <string name="status_pending">Menunggu</string>
+    <string name="status_under_review">Dalam Review</string>
+    <string name="status_approved">Disetujui</string>
+    <string name="status_rejected">Ditolak</string>
+    <string name="status_paid">Dibayar</string>
+    <string name="status_cancelled">Dibatalkan</string>
+    
+    <!-- Success Messages -->
+    <string name="expense_submitted_success">Klaim berhasil diajukan!</string>
+    <string name="expense_cancelled_success">Klaim berhasil dibatalkan</string>
+    <string name="wallet_saved_success">Alamat wallet berhasil disimpan</string>
+    <string name="language_changed">Bahasa berhasil diubah</string>
+    
+    <!-- Error Messages -->
+    <string name="error_email_required">Email tidak boleh kosong</string>
+    <string name="error_email_invalid">Format email tidak valid</string>
+    <string name="error_password_short">Password minimal 6 karakter</string>
+    <string name="error_password_mismatch">Password tidak cocok</string>
+    <string name="error_name_required">Nama tidak boleh kosong</string>
+    <string name="error_title_short">Judul harus minimal 3 karakter</string>
+    <string name="error_description_short">Deskripsi harus minimal 10 karakter</string>
+    <string name="error_amount_invalid">Jumlah harus lebih dari 0</string>
+    <string name="error_amount_max">Jumlah maksimal 100,000 USDC</string>
+    <string name="error_category_required">Kategori harus dipilih</string>
+    <string name="error_not_authenticated">Pengguna tidak terautentikasi</string>
+    <string name="error_upload_failed">Gagal upload gambar</string>
+    <string name="error_submit_failed">Gagal mengajukan klaim</string>
+    <string name="error_network">Tidak ada koneksi internet</string>
+    <string name="error_invalid_wallet">Alamat wallet tidak valid</string>
+    <string name="error_invalid_claim_id">ID klaim tidak valid</string>
+    
+    <!-- Settings -->
+    <string name="settings">Pengaturan</string>
+    <string name="logout">Keluar</string>
+    <string name="logout_confirmation">Apakah Anda yakin ingin keluar?</string>
+    <string name="logout_button">Keluar</string>
+    <string name="cancel">Batal</string>
+    <string name="save">Simpan</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="about">Tentang</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="terms_of_service">Syarat dan Ketentuan</string>
+    <string name="help_support">Bantuan &amp; Dukungan</string>
+    <string name="version_info">StableFlow v1.0.0</string>
+    <string name="coming_soon">Segera hadir</string>
+    <string name="section_wallet">DOMPET</string>
+    <string name="section_general">UMUM</string>
+    
+    <!-- Language Settings -->
+    <string name="language">Bahasa</string>
+    <string name="select_language">Pilih Bahasa</string>
+    <string name="language_english">English</string>
+    <string name="language_indonesian">Bahasa Indonesia</string>
+    
+    <!-- Wallet Settings -->
+    <string name="wallet_address">Alamat Wallet</string>
+    <string name="wallet_not_set">Belum diatur</string>
+    <string name="edit_wallet">Ubah Wallet</string>
+    <string name="wallet_input_title">Alamat Wallet Solana</string>
+    <string name="wallet_input_message">Masukkan alamat wallet Solana Anda untuk menerima pembayaran USDC</string>
+    
+    <!-- Expense Detail -->
+    <string name="expense_detail">Detail Klaim</string>
+    <string name="receipt_proof">Bukti Struk</string>
+    <string name="view_full_image">Lihat Gambar Penuh</string>
+    <string name="processed_by">Diproses oleh: %s</string>
+    <string name="processed_date">Tanggal: %s</string>
+    <string name="rejection_reason">Alasan Penolakan</string>
+    <string name="cancel_claim">Batalkan Klaim</string>
+    <string name="cancel_claim_title">Batalkan Klaim</string>
+    <string name="cancel_claim_message">Apakah Anda yakin ingin membatalkan klaim ini?</string>
+    <string name="see_on_explorer">Lihat transaksi di Solana Explorer</string>
+    
+    <!-- Misc -->
+    <string name="loading">Memuat...</string>
+    <string name="submitted_at">Diajukan: %s</string>
+    <string name="required">*</string>
+    <string name="optional">(Opsional)</string>
+    <string name="user">Pengguna</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_wallet">Wallet</string>
+    <string name="nav_analytics">Analitik</string>
+    <string name="nav_claims">Klaim</string>
+    <string name="nav_settings">Pengaturan</string>
+    
+    <!-- Features -->
+    <string name="feature_secure">Aman</string>
+    <string name="feature_fast">Cepat</string>
+    <string name="feature_premium">Premium</string>
+    
+    <!-- Footer -->
+    <string name="copyright">© 2026 StableFlow. Hak cipta dilindungi.</string>
+    
+    <!-- Google Sign-In -->
+    <string name="default_web_client_id">170061711609-u8a3kmp7t1oqun1vrugnd6nhn3fa4vcg.apps.googleusercontent.com</string>
+    <string name="sign_in_with_google">Masuk dengan Google</string>
+    <string name="or">atau</string>
+    <string name="login_cancelled">Login dibatalkan</string>
+    <string name="google_play_services_error">Error Google Play Services</string>
+    <string name="google_signin_failed">Google Sign-In gagal (Error: %d)</string>
+    <string name="last_updated_default">Terakhir diperbarui: -</string>
+    <string name="breakdown_status">Rincian Status</string>
+    <string name="permission_camera_required">Izin kamera diperlukan</string>
+    <string name="permission_location_required">Izin lokasi diperlukan</string>
+    <string name="error_camera_open">Gagal membuka kamera</string>
+    <string name="error_location_fetch">Gagal mendapatkan lokasi</string>
+    <string name="error_location_unavailable">Tidak dapat mendapatkan lokasi</string>
+    <string name="address_copied">Alamat disalin</string>
+    <string name="set_wallet_hint">Silakan atur alamat wallet di Pengaturan</string>
+    <string name="total_claims">Total Klaim</string>
+    <string name="total_claim_value">Total Nilai Klaim</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- SF Logo - Stylized -->
+    <group android:translateX="27" android:translateY="27">
+        <!-- Background Circle -->
+        <path
+            android:fillColor="#D4A940"
+            android:pathData="M27,0C41.912,0 54,12.088 54,27C54,41.912 41.912,54 27,54C12.088,54 0,41.912 0,27C0,12.088 12.088,0 27,0Z"/>
+        
+        <!-- S Letter -->
+        <path
+            android:fillColor="#0A1628"
+            android:pathData="M20,18C20,15.239 22.239,13 25,13H29C31.761,13 34,15.239 34,18V20H30V18C30,17.448 29.552,17 29,17H25C24.448,17 24,17.448 24,18V23C24,23.552 24.448,24 25,24H29C31.761,24 34,26.239 34,29V36C34,38.761 31.761,41 29,41H25C22.239,41 20,38.761 20,36V34H24V36C24,36.552 24.448,37 25,37H29C29.552,37 30,36.552 30,36V29C30,28.448 29.552,28 29,28H25C22.239,28 20,25.761 20,23V18Z"/>
+    </group>
+</vector>

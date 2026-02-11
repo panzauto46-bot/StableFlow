@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Android
+.gradle/
+local.properties
+.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Build
+dist/
+build/

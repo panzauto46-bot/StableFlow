@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Theme -->
+    <style name="Theme.StableFlow" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/gold_primary</item>
+        <item name="colorPrimaryDark">@color/navy_primary</item>
+        <item name="colorAccent">@color/gold_primary</item>
+        <item name="android:colorBackground">@color/navy_primary</item>
+        <item name="android:windowBackground">@color/navy_primary</item>
+        <item name="android:navigationBarColor">@color/navy_primary</item>
+        <item name="android:statusBarColor">@color/navy_primary</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnSurface">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        <!-- Font -->
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.StableFlow.Splash" parent="Theme.StableFlow">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <!-- Toolbar Style -->
+    <style name="Theme.StableFlow.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/navy_primary</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="Theme.StableFlow.BottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/navy_primary</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="Theme.StableFlow.Button.Gold" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/bg_button_gold</item>
+        <item name="android:textColor">@color/navy_primary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="Theme.StableFlow.Button.Outline" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:background">@drawable/bg_button_outline</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Text Input Style -->
+    <style name="Theme.StableFlow.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/input_background</item>
+        <item name="boxStrokeColor">@color/gold_primary</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+    </style>
+    
+    <!-- Card Style -->
+    <style name="Theme.StableFlow.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+</resources>

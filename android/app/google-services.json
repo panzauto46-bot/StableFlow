@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "170061711609",
+    "firebase_url": "https://stableflow-2df17-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "stableflow-2df17",
+    "storage_bucket": "stableflow-2df17.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170061711609:android:3adf7d183c9f425edbfa28",
+        "android_client_info": {
+          "package_name": "com.stableflow.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170061711609-27402dmgnoi4iuglfv6kguj252ga5p10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stableflow.app",
+            "certificate_hash": "5ba65f3ae9a8b7a8e4373fa95acdc49a7ead272b"
+          }
+        },
+        {
+          "client_id": "170061711609-u8a3kmp7t1oqun1vrugnd6nhn3fa4vcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgaGV_1uY0qvtDe_Ksh8z0hntQLgjfk00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170061711609-u8a3kmp7t1oqun1vrugnd6nhn3fa4vcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

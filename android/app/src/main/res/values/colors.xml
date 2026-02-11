@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors - Navy Blue & Gold -->
+    <color name="navy_primary">#0A1628</color>
+    <color name="navy_secondary">#142038</color>
+    <color name="navy_tertiary">#1E3A5F</color>
+    
+    <color name="gold_primary">#D4A940</color>
+    <color name="gold_secondary">#F5D77E</color>
+    <color name="gold_dark">#B38C30</color>
+    
+    <!-- Card & Background Colors -->
+    <color name="card_background">#162236</color>
+    <color name="input_background">#1A2942</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_tertiary">#64748B</color>
+    
+    <!-- Status Colors -->
+    <color name="success_green">#22C55E</color>
+    <color name="error_red">#EF4444</color>
+    <color name="warning_yellow">#F59E0B</color>
+    <color name="info_blue">#3B82F6</color>
+    <color name="purple">#A855F7</color>
+    
+    <!-- Status Background Colors -->
+    <color name="success_bg">#0A2E1A</color>
+    <color name="error_bg">#2E0A0A</color>
+    <color name="warning_bg">#2E2A0A</color>
+    <color name="info_bg">#0A1A2E</color>
+    <color name="purple_bg">#1A0A2E</color>
+    
+    <!-- Glass Effect -->
+    <color name="glass_white">#14FFFFFF</color>
+    <color name="glass_border">#29FFFFFF</color>
+    
+    <!-- Solana Brand -->
+    <color name="solana_purple">#9945FF</color>
+    <color name="solana_green">#14F195</color>
+    
+    <!-- USDC Brand -->
+    <color name="usdc_blue">#2775CA</color>
+    
+    <!-- Divider -->
+    <color name="divider">#2A3A50</color>
+</resources>
